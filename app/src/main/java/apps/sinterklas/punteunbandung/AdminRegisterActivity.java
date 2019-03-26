@@ -1,5 +1,6 @@
 package apps.sinterklas.punteunbandung;
 
+<<<<<<< HEAD
 import android.content.Intent;
         import android.os.Bundle;
         import android.support.annotation.NonNull;
@@ -91,3 +92,15 @@ public class AdminRegisterActivity extends AppCompatActivity {
         });
     }
 }
+=======
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+    public class AdminRegisterActivity extends AppCompatActivity {
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_admin_register);
+        }
+    }
+>>>>>>> 30d168b95216933980e033da157fd1c48667b52e

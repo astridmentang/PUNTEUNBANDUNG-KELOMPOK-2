@@ -15,19 +15,30 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+<<<<<<< HEAD
             android:name=".AdminLoginActivity"
             android:label="@string/title_activity_login">
         </activity>
         <activity
             android:name=".LoginActivity">
+=======
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login">
+        </activity>
+        <activity
+            android:name=".AdminLoginActivity">
+>>>>>>> 30d168b95216933980e033da157fd1c48667b52e
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".RegisterActivity"
             android:parentActivityName=".LoginActivity"/>
+=======
+>>>>>>> 30d168b95216933980e033da157fd1c48667b52e
         <activity android:name=".AdminRegisterActivity"
             android:parentActivityName=".AdminLoginActivity"/>
     </application>

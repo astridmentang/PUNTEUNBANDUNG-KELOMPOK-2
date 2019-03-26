@@ -3,7 +3,10 @@ package apps.sinterklas.punteunbandung;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+<<<<<<< HEAD
 import android.content.Intent;
+=======
+>>>>>>> 30d168b95216933980e033da157fd1c48667b52e
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -39,6 +42,10 @@ import static android.Manifest.permission.READ_CONTACTS;
  * A login screen that offers login via email/password.
  */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 30d168b95216933980e033da157fd1c48667b52e
     /**
      * Id to identity READ_CONTACTS permission request.
      */
@@ -61,9 +68,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
+<<<<<<< HEAD
     private Button registerasadmin;
     private Button registeruser;
     private Button loginuser;
+=======
+>>>>>>> 30d168b95216933980e033da157fd1c48667b52e
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,6 +83,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
 
+<<<<<<< HEAD
         registerasadmin = (Button)findViewById(R.id.admin_login_button);
         registerasadmin.setOnClickListener(new View.OnClickListener()  {
 
@@ -98,6 +109,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 startActivity(b);
         }
 
+=======
+>>>>>>> 30d168b95216933980e033da157fd1c48667b52e
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
@@ -372,8 +385,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         protected void onCancelled() {
             mAuthTask = null;
             showProgress(false);
+<<<<<<< HEAD
 
             //perubahan skut
+=======
+>>>>>>> 30d168b95216933980e033da157fd1c48667b52e
         }
     }
 }
